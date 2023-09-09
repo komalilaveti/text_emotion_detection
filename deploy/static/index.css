@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex: column;
+    background-color: navy;
+}
+.title{
+    width: 50%;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding: 20% 0%;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding: 15% 0%;
+    justify-content: center;
+    
+}
+form .area{
+    padding: 10px 6px;
+    margin: 5px 4px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    color: grey;
+    font-size: 17px;
+}
+form .submit{
+    width: 120px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    justify-content: center;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+} 
+
